@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MOVIEHOLICS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="heading">
+        <h1>MOVIEHOLICS HUB</h1>
+        <h4>Your Personal Film Log</h4>
+        <p id="dummy">Create your own movie diary by mentioning the recently watched movies and clicking the plus symbol to add them.</p>
+    </div>
+
+    <div class="divide1">
+        <div class="divide2">
+            <h2>Attack On Titan</h2>
+            <h4>Hajime Isayama</h4>
+            <p>Date : 2-6-24</p>
+            <p>The show hooked me from the very first episode. How action and emotions connects and make a perfect atmosphere for Titans, monsters who like to eat humans just for fun, and humans, fighting for their existence when stuck inside three walls.How main characters who aren't super powerful yet give a promising touch to the show. And how they show a real management work even when their is anger, fear and blood in the air.</p>
+            <button onclick="deletetable(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popupbg">
+
+    </div>
+    
+    <div class="popuptable">
+        <h2>Add Movie</h2>
+        <form>
+            <input type="text" placeholder="Movie Name" autofocus id="mname">
+            <input type="text" placeholder="Movie Director" id="mdirector">
+            <input type="text" placeholder="Watched Date" id="mdate">
+            <textarea type="text" placeholder="Short Description" id="mdescription"></textarea>
+            <button class="addmoviebutton">ADD</button>
+            <button class="cancelmoviebutton">CANCEL</button>
+            
+        </form>
+
+    </div>
+
+    <button class="plusbutton">+</button>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
